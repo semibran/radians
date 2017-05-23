@@ -1,0 +1,19 @@
+{
+  "name": "radians",
+  "version": "0.1.0",
+  "description": "Convert between degrees and radians",
+  "keywords": [
+		"convert",
+    "degrees",
+    "radians",
+		"math",
+		"trigonometry"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Brandon Semilla (https://github.com/semibran)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semibran/radians.git"
+  }
+}
