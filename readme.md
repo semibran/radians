@@ -1,4 +1,6 @@
 # radians
+![degree radian conversion](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Degree-Radian_Conversion.svg/400px-Degree-Radian_Conversion.svg.png)
+
 In JavaScript, methods like `Math.sin`, `Math.atan2`, and `CanvasRenderingContext2D.arc` use [radians](https://en.wikipedia.org/wiki/Radian) instead of degrees. It may be helpful to have functions to convert between the two to reduce instances of `Math.PI / 180` in your code, as they may appear misleading.
 
 The API for this module is based off of [Elm](http://elm-lang.org)'s [built-in angle conversion functions](http://package.elm-lang.org/packages/elm-lang/core/5.1.1/Basics#angle-conversions).
