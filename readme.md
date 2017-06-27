@@ -12,8 +12,6 @@ The API for this module is based off of [Elm](http://elm-lang.org)'s [built-in a
 true
 ```
 
-Keep in mind that `radians(degrees(angle))` won't always be exactly equal to `angle` because of float precision errors.
-
 ### `degrees(degrees)`
 Converts `degrees` to its corresponding value in radians.
 ```js
@@ -30,6 +28,9 @@ Converts `radians` to its corresponding value in degrees.
 > radians(0.5235987755982989)
 30.000000000000004
 ```
+
+## see also
+- [`scijs/almost-equal`](https://github.com/scijs/almost-equal) - determine if two floats are nearly equal
 
 ## license
 [MIT](https://opensource.org/licenses/MIT) © [Brandon Semilla](https://git.io/semibran)
