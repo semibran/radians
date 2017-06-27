@@ -15,14 +15,14 @@ true
 Keep in mind that `radians(degrees(angle))` won't always be exactly equal to `angle` because of float precision errors.
 
 ### `degrees(degrees)`
-Converts `degrees` into its corresponding value in radians.
+Converts `degrees` to its corresponding value in radians.
 ```js
 > degrees(30)
 0.5235987755982988
 ```
 
 ### `radians(radians)`
-Converts `radians` into its corresponding value in degrees.
+Converts `radians` to its corresponding value in degrees.
 ```js
 > radians(0.5235987755982988)
 29.999999999999996
