@@ -1,13 +1,10 @@
-exports.degrees = degrees
-exports.radians = radians
-
 var RATIO_DEGREES = 180 / Math.PI
 var RATIO_RADIANS = Math.PI / 180
 
-function degrees(degrees) {
+exports.degrees = function (degrees) {
 	return degrees * RATIO_RADIANS
 }
 
-function radians(radians) {
+exports.radians = function (radians) {
 	return radians * RATIO_DEGREES
 }
